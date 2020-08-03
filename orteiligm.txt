@@ -27,4 +27,4 @@ Buttons
 		no text
 		on click:yield 1 line
                 class:bigButton hasFlares
-                icon:https://imgur.com/a/zkLo8MW
+                icon:https://imgur.com/rcRNpi2
