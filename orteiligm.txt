@@ -13,12 +13,12 @@ CSS
 Resources
 	*coderBuck|coderBucks
 		name:Coder Bucks
-		text:C$
+		text:[this] C$
 		desc:The main currency
                 icon:https://pipe.miroware.io/5f28779a9e3328402788173b/c_-removebg-preview.png
 	*line|lines
 		name:Lines of Code
-		text:Lines
+		text:[this] Lines
 		desc:How many lines of code you have written
 
 Buttons
