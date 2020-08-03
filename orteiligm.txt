@@ -15,7 +15,7 @@ Resources
 		name:Coder Bucks
 		text:[this] C$
 		desc:The main currency
-                icon:https://pipe.miroware.io/5f28779a9e3328402788173b/ezgif.com-resize.png
+                icon:https://pipe.miroware.io/5f28779a9e3328402788173b/ezgif.com-resize%20(1).png
 	*line|lines
 		name:Lines of Code
 		text:[this] Lines
