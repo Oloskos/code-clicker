@@ -1,21 +1,30 @@
 Let's make a game!
-	name:Clicc
+	name:<Coder>
+	by:Oloskos
+
+CSS
+	#game
+	{
+		background:black;
+		font-family:"Courier New";
+		color:cornflowerblue;
+ 	}
 
 Resources
-	*credit|credits
-		name:Credit
-		desc:The main game currency.
+	*coderBuck|coderBucks
+		name:Coder Bucks
+		text:C$
+		desc:The main currency
+                icon:https://imgur.com/a/m1uzUTT
+	*line|lines
+		name:Lines of Code
+		text:Lines
+		desc:How many lines of code you have written
 
 Buttons
-	*brbutton
-		name:Big Red Button
-		desc:Click me to get some Credits!
-		on click:yield 1 credit
-		class:bigButton hasFlares
+	*keyboard
+		name:Click the keyboard to write some lines of code
 		no text
-		
-CSS
-	#game.filtersOn .thing.cantAfford.notOwned
-	{
-    		filter:blur(3px);
-	}
+		on click:yield 1 line
+                class:bigButton hasFlares
+                icon:https://imgur.com/a/fjBgyii
