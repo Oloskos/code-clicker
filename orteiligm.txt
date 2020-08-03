@@ -10,7 +10,7 @@ Buttons
 	*brbutton
 		name:Big Red Button
 		desc:Click me to get some Credits!
-`		on click:yield 1 credit
+		on click:yield 1 credit
 		class:bigButton hasFlares
 		no text
 		
