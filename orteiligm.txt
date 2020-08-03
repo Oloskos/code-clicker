@@ -20,6 +20,7 @@ Resources
 		name:Lines of Code
 		text:[this] Lines
 		desc:How many lines of code you have written
+		icon:https://pipe.miroware.io/5f28779a9e3328402788173b/lines.png
 
 Buttons
 	*keyboard
