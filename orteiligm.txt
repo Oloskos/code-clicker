@@ -1,7 +1,7 @@
 Let's make a game!
 	name:<Coder>
 	by:Oloskos
-
+	version:0.1
 CSS
 	#game
 	{
@@ -41,11 +41,12 @@ Upgrades
 
 Buildings
 	*startSelling
-		name:Start Selling!
-		desc:Start selling your software!
-		on tick:if (lines >= 0.1) yield 0.1 coderBucks
-		on tick:lose 1 line
+		name:Startup Campaign
+		desc:Make some simple software and sell it off.
+		on tick:if (lines > 0) yield 0.1 coderBucks
+		on tick:lose 5 lines
 		req:200 lines
+		cost:230 lines
 	*machineLearning
 		name:Machine Learning
 		desc:Computers program themselves! 0.1 lpt
