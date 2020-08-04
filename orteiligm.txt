@@ -52,4 +52,4 @@ Buildings
 		desc:Computers program themselves! 0.1 lpt
 		on tick:yield 0.1 lines
 		cost:1 coderBuck
-		req:500 lines
+		req:1 coderBuck
