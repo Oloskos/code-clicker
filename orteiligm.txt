@@ -38,13 +38,21 @@ Upgrades
 		desc:Gives you a developer license. You can now start making money!
 		req:100 lines
 		hidden when 0
+	
+	// Value Changers
+	*stackExchangeAcc|sec
+		name:Stack Exchange Account
+		desc:Stuck? Ask someone for help! Triples the amount of lines per click.
+		req:1 coderBuck
+		cost:1 coderBuck
+		passive:multiply yield of keyboard by 3
 
 Buildings
 	*startSelling
 		name:Startup Campaign
 		desc:Make some simple software and sell it off.
 		on tick:if (lines > 0) yield 0.1 coderBucks
-		on tick:lose 5 lines
+		on tick:lose 1 line
 		req:200 lines
 		cost:230 lines
 	*machineLearning
