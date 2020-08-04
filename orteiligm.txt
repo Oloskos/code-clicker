@@ -37,7 +37,6 @@ Upgrades
 		name:Computer Science Academy Enrollment
 		desc:Gives you a developer license. You can now start making money!
 		req:100 lines
-		hidden when 0
 	
 	// Value Changers
 	*stackExchangeAcc|sec
