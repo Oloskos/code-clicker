@@ -16,7 +16,7 @@ Resources
 		text:[this] C$
 		desc:The main currency
                 icon:https://pipe.miroware.io/5f28779a9e3328402788173b/cbuck.png
-		
+		hidden when 0	
 	*line|lines
 		name:Lines of Code
 		text:[this] Lines
@@ -46,6 +46,11 @@ Upgrades
 		req:1 coderBuck
 		cost:1 coderBuck
 		passive:multiply yield of keyboard by 3
+	*advertisements|ads
+		name:Advertising I
+		desc:Advertise your software! Doubles C$ value.
+		cost:10 coderBucks
+		passive:multiply yield of startSelling by 2
 
 Buildings
 	*startSelling
