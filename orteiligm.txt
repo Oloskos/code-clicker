@@ -16,6 +16,7 @@ Resources
 		text:[this] C$
 		desc:The main currency
                 icon:https://pipe.miroware.io/5f28779a9e3328402788173b/cbuck.png
+		
 	*line|lines
 		name:Lines of Code
 		text:[this] Lines
@@ -34,6 +35,20 @@ Buttons
 Upgrades
 	*startMakingMoney|startUpgrade
 		name:Computer Science Academy Enrollment
-		desc:Unlocks Coding Lessons!
+		desc:Gives you a developer license. You can now start making money!
 		req:100 lines
-		
+		hidden when 0
+
+Buildings
+	*startSelling
+		name:Start Selling!
+		desc:Start selling your software!
+		on tick:if (lines >= 0.1) yield 0.1 coderBucks
+		on tick:lose 1 line
+		req:200 lines
+	*machineLearning
+		name:Machine Learning
+		desc:Computers program themselves! 0.1 lpt
+		on tick:yield 0.1 lines
+		cost:1 coderBuck
+		req:500 lines
