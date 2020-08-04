@@ -1,7 +1,7 @@
 Let's make a game!
-	name:<Coder>
+	name:CoderClicker
 	by:Oloskos
-	version:0.1
+	version:0.2
 CSS
 	#game
 	{
@@ -40,7 +40,7 @@ Upgrades
 		cost:0 lines
 	
 	// Value Changers
-	*stackExchangeAcc|sec
+	*stackExchangeAcc|sea
 		name:Stack Exchange Account
 		desc:Stuck? Ask someone for help! Triples the amount of lines per click.
 		req:1 coderBuck
@@ -51,6 +51,7 @@ Upgrades
 		desc:Advertise your software! Doubles C$ value.
 		cost:10 coderBucks
 		passive:multiply yield of startSelling by 2
+		req:7 coderBucks
 
 Buildings
 	*startSelling
@@ -60,9 +61,23 @@ Buildings
 		on tick:lose 1 line
 		req:200 lines
 		cost:230 lines
+
+	// Automation
 	*machineLearning
-		name:Machine Learning
+		name:Machine Learning I
 		desc:Computers program themselves! 0.1 lpt
 		on tick:yield 0.1 lines
 		cost:1 coderBuck
 		req:1 coderBuck
+	*machineLearning2
+		name:Machine Learning II
+		desc:Computers are getting smart, huh? 0.5 lpt
+		on tick:yield 0.1 lines
+		cost:3 coderBucks
+		req:2.5 coderBucks
+
+Achievements
+	*automation
+		name:Automation
+		desc:Sit back and relax - a bit. It's a tad slow right now.
+		req:have 1 startSelling
