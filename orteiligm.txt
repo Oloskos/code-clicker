@@ -24,8 +24,16 @@ Resources
 
 Buttons
 	*keyboard
-		name:Click the keyboard to write some lines of code
+		name:Keyboard
+		desc:Click to type some code!
 		no text
 		on click:yield 1 line
                 class:bigButton hasFlares
                 icon:https://pipe.miroware.io/5f28779a9e3328402788173b/ezgif.com-gif-maker.png
+
+Upgrades
+	*startMakingMoney|startUpgrade
+		name:Computer Science Academy Enrollment
+		desc:Unlocks Coding Lessons!
+		req:100 lines
+		
