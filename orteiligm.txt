@@ -80,4 +80,4 @@ Achievements
 	*automation
 		name:Automation
 		desc:Sit back and relax - a bit. It's a tad slow right now.
-		req:have 1 startSelling
+		req:1 startSelling
